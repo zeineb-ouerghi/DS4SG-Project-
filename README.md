@@ -2,11 +2,10 @@
 Project for Data Science for Social Good 
 
 ## Title: 
-Predicting Depressive Behaviors in Users' Tweets
+Depression Classification Using NLP with User Tweets
 
 ## Research Question:
-Is it possible to predict whether a Twitter user has depression based on the content of their tweets and other users’ engagement with their profile (followers, friends, favourites,  retweets, number of posts)?
+Can we use NLP on Tweets in addition to the user profile’s activity ((followers, friends, favorites,  retweets, number of posts) to make predictions about the user’s mental health state and to what extent are these predictions accurate?
 
 ## Data Collection:
-After searching through multiple datasets, we found one on Kaggle that we thought would work well for our purpose.  
-Link to Data: https://www.kaggle.com/datasets/infamouscoder/mental-health-social-media
+After searching through multiple datasets, we found one on Kaggle that we thought would work well for our purpose. The data is collected using Twitter API containing 20,000 tweets in total, equally divided between tweets from depressed users and non-depressed users. The data is in uncleaned format and has been filtered to only keep the English tweets. 
